@@ -41,10 +41,10 @@ body {
 }
 img {
   border: 0;
-  max-width: 100%;
+  max-width: 75%;
 }
 html {
-  -ms-overflow-style: scrollbar;
+  -ms-overflow-style: "scrollbar";
 }
 .alltrans,
 .social-icons li a,
@@ -371,17 +371,17 @@ a#logo {
   z-index: 199;
 }
 .social-icons {
-  margin:0;
+  margin:5px;
   padding:0;
   list-style:none;
 }
 .social-icons li {
   display: block;
-  margin: 1px 0px;
+  margin: 5px 5px;
 }
 .social-icons li a {
-  width:50px;
-  height:50px;
+  width:65px;
+  height:65px;
   display:inline-block;
   line-height:50px;
   text-align:center;
