@@ -1,6 +1,6 @@
-#My_Portfolio
+# My_Portfolio
 
-###This website shows: 
+### This website shows: 
 - [ ] who i am
 - [ ] what i do
 - [ ] How i do it 
