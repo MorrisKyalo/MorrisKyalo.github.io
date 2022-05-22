@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Morris-responsive resume CV</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">MORRIS</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/Morrisperfil.png" alt="" class="home__img">
+
+                                <h1 class="home__title"><b>Morris Kyalo </b></h1>
+                                <h3 class="home__profession">Graphics & Web _ Designer & developer</h3>
+                                
+                                <!-- Button to download your CV saved in the pdf folder. Available for mobile. -->
+                                <div>
+                                    <a download="" href="assets/pdf/MORRIS CV.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i>CGM 1996-90100, Machakos
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i>mauricekyallo@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i>+254-799799828
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                        
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                        
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/morris-kyalo-96b0031b8/" target="blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i>Morris Kyalo
+                            </a>
+                            <a href="https://github.com/MorrisKyalo" target="blank" class="social__link">
+                                <i class='bx bxl-github social__icon' ></i>MorrisKyalo
+                            </a>
+                            <a href="https://wa.me/+254799799828" target="blank" class="social__link">
+                                <i class='bx bxl-whatsapp social__icon'></i>MorriS
+                            </a>
+                        </div>
+                    </section>
+
+                    
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Diploma in ICT (KNEC)</h3>
+                                    <span class="education__studies">Machakos Institute of Technology</span>
+                                    <span class="education__year">Sep 2017 - Jan 2021</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Computer Packages</h3>
+                                    <span class="education__studies">Machakos Institute of Technology</span>
+                                    <span class="education__year">March - May 2017</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">KCSE</h3>
+                                    <span class="education__studies">Kabaa High School</span>
+                                    <span class="education__year">2013 - 2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Html
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Css
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>JavaScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Sass
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>WordPress
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Jekyll
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>React
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">
+                            A highly skilled graduate of Diploma in ICT; 1+ years experience in the ICT department, installing and maintaining
+                            software and hardware systems, Networking, Web design and data entry-user role; 
+                            Critical thinker, & problem-solver through teamwork and communication.<br> 
+                            Additional skills in tutoring, research, graphics design, and forex trading.                        
+                        </p>
+                    </section>
+
+                    
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">New Birth Institute of Professional Studies</h3>
+                                    <span class="experince__company">Feb 2022 to date</span>
+                                    <p class="experience__description">
+                                        <b>Part-time ICT Tutor</b><br>
+                                        Tutoring DICT Module II students through 6 Units tested by the KNEC
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Machakos County Government (PSQM & ICT)</h3>
+                                    <span class="experince__company">Feb 2021 to date</span>
+                                    <p class="experience__description">
+                                        <b>Internship</b><br>
+                                        Installing and maintaining software and hardware systems, Networking, Web design and data entry-user role
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+                    
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certificate for Diploma in ICT</h3>
+                                <p class="certificate__description">Cerfified for Graduating with an Upper Credit after the 3 years ICT course tested by KNEC</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certificate for Computer Packages</h3>
+                                <p class="certificate__description">Cerfified for Completion of Computer Packages Short Course (2017)</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">KCSE Certification</h3>
+                                <p class="certificate__description">Certified for Completion of 4 years in High School - Mean Grade of C</p>
+                            </div>
+                        </div>    
+                    </section>
+
+                    
+
+                    <!--========== attributes ==========-->
+                    <section class="attributes section">
+                       <h2 class="section-title">PERSONAL ATTRIBUTES</h2>
+
+                       <div class="attributes__container">
+                           <ul class="attributes__content bd-grid">
+                               <li class="attributes__name">
+                                   <span class="attributes__circle"></span>High integrity
+                                </li>
+                                <li class="attributes__name">
+                                   <span class="attributes__circle"></span>Dependable
+                                </li>
+                                <li class="attributes__name">
+                                    <span class="attributes__circle"></span>Self-driven
+                                </li>
+                                <li class="attributes__name">
+                                    <span class="attributes__circle"></span>Results-oriented
+                                </li>
+                                <li class="attributes__name">
+                                    <span class="attributes__circle"></span>Team worker
+                                </li>
+                                <li class="attributes__name">
+                                    <span class="attributes__circle"></span>Flexible to tight timelines
+                                </li>
+                           </ul>
+                       </div>
+                    </section>
+                    
+                   <!--========== INTERESTS ==========-->
+                     <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-code-alt interests__icon' ></i>
+                                <span class="interests__name">Coding</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-devices interests__icon'></i>
+                                <span class="interests__name">Systems</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-tennis-ball interests__icon'></i>
+                                <span class="interests__name">Lawn tennis</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-broadcast interests__icon'></i>
+                                <span class="interests__name">Networking</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Systems Analyst</span>
+                                <h3 class="references__title">Daniel Kivuitu Mwalali</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: +254-733320540</li>
+                                    <li>P.O. Box 1996-90100, Machakos</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Deputy Principle</span>
+                                <h3 class="references__title">Phillip Biego</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: +254-754780447</li>
+                                    <li>P.O Box 2069-90100, Machakos</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
