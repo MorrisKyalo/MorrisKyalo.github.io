@@ -4,5 +4,5 @@
 - [ ] who i am
 - [ ] what i do
 - [ ] How i do it 
-- [ ] To whom i do it for 
+- [ ] To whom i do it
 
